@@ -1,0 +1,63 @@
+.messagesMain {
+    background-color: #dde4f0;
+    height: 80vh;
+    padding: 6px 15px;
+    overflow: scroll;
+    overflow-x: auto;
+}
+
+.messagesAccountContainer {
+    display: flex;
+    padding: 5px 10px;
+    background-color: white;
+    margin-top: 5px;
+    max-width: 60%;
+    width: fit-content;
+    margin-left: auto;
+    border-radius: 20px;
+    word-break: break-word;
+    align-items: center;
+}
+
+.messagesPersonContainer {
+    display: flex;
+    padding: 5px 10px;
+    background-color: #333333;
+    color: white;
+    margin-top: 5px;
+    max-width: 60%;
+    width: fit-content;
+    margin-right: auto;
+    border-radius: 20px;
+    word-break: break-word;
+    align-items: center;
+}
+
+.messageText {
+    margin: 2px;
+    padding: 0px 5px;
+}
+
+.messageDate {
+    display: flex;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 5px;
+    bottom: auto;
+    font-size: 11px;
+    opacity: 60%;
+    word-break: keep-all;
+    margin-top: auto;
+    min-width: 35px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 100%, .1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,19 @@
+.emptyChatMain {
+
+    height: 100%;
+    min-width: 150px;
+    padding: 2% 0%;
+
+}
+
+.emptyChatContainer {}
+
+.emptyChatUpperDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyChatBottomDiv {
+    text-align: center;
+}

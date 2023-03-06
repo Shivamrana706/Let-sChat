@@ -1,0 +1,43 @@
+.footermain {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    padding: 2px;
+
+
+}
+
+.footerIconDiv {
+    width: 10%;
+    margin-left: auto;
+    padding: 1px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerInputDiv {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: black;
+
+}
+
+.footerInputField {
+    min-width: 40px;
+
+    /* border-radius: 20px; */
+    /* background-color: black; */
+    padding-left: 15px;
+    padding-right: 30px;
+    width: 90%;
+    height: 30px;
+    outline: none
+}
+
+.footerSendIcon {
+    width: 40px;
+    background-color: black;
+}

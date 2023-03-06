@@ -1,0 +1,86 @@
+.leftSideContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSideLeftDiv {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 10px 0px;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+    border-right: 1px ridge;
+    border-right-color: white;
+
+}
+
+.leftSideRightDiv {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dpImage {
+    height: 40;
+    width: 40;
+    border-radius: 50%;
+}
+
+.leftSideImageDiv {
+    height: 20%;
+    margin-top: auto;
+}
+
+.leftSideOtherIcon {
+    height: 60%;
+}
+
+.leftSideSettingIcon {
+    height: 20%;
+    margin-bottom: auto;
+}
+
+.leftSideRightDiv {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.rightSideTopDiv {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    height: 45px;
+
+
+}
+
+.rightSidetopDivInputField {
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 30px;
+    width: 75%;
+    height: 30px;
+    position: relative;
+
+}
+
+.rightSideTopDivRealative {
+
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rightSidetopDivButton {
+    position: absolute;
+    right: 30px;
+}
